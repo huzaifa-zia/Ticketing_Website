@@ -1,0 +1,2 @@
+Introduction: This project was creating a ticketing webiste where a user can create, update, or remove tickets for an IT department.
+Requirements: The project had to display the author, the type of ticket that it is, the title of the ticket and a description with the scale of urgency that the ticket needs to be addressed in.

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %} Ticket #{{ticket.id}} {% endblock %}
+{% block content %}
+<div class="ticket">
+ <table class="styled-table">
+ <tbody>
+  <tr>
+   <td>Author</td>
+   <td>{{ticket.author}}</td>
+  </tr>
+  <tr>
+   <td>Ticket type</td>
+   <td>{{ticket.ticket_type}}</td>
+  </tr>
+  <tr>
+   <td>Title</td>
+   <td>{{ticket.title}}</td>
+  </tr>
+  <tr>
+   <td>Description</td>
+   <td>{{ticket.description}}</td>
+  </tr>
+  <tr>
+   <td>Urgency</td>
+   <td>{{ticket.urgency}}</td>
+  </tr>
+  <tr>
+ </tbody>
+ </table>
+</div>
+{% endblock %}
